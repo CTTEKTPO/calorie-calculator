@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="355.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ControllerForResult">
+   <children>
+      <Label fx:id="mainResult" alignment="TOP_CENTER" layoutX="168.0" layoutY="70.0" prefHeight="17.0" prefWidth="91.0" style="-fx-text-alignment: center;" textAlignment="CENTER" />
+      <Label fx:id="resultBMI" alignment="TOP_CENTER" layoutX="41.0" layoutY="294.0" prefHeight="17.0" prefWidth="366.0" style="-fx-alignment: center;" textAlignment="CENTER" />
+      <Label fx:id="mainResultMinusTwentyProcent" alignment="TOP_CENTER" layoutX="170.0" layoutY="144.0" prefHeight="17.0" prefWidth="91.0" style="-fx-alignment: center;" textAlignment="CENTER" />
+      <Label fx:id="mainResultMinusFourtyProcent" alignment="TOP_CENTER" layoutX="168.0" layoutY="223.0" prefHeight="17.0" prefWidth="91.0" style="-fx-alignment: center;" textAlignment="CENTER" />
+      <Label alignment="TOP_CENTER" layoutX="43.0" layoutY="36.0" style="-fx-alignment: center;" text="Сколько нужно калорий в день, чтобы вес не менялся:" textAlignment="CENTER" textFill="#1767bc">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="69.0" layoutY="107.0" style="-fx-alignment: center;" text="Сколько нужно калорий в день для похудения:" textAlignment="CENTER" textFill="#1767bc">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="31.0" layoutY="185.0" prefHeight="20.0" prefWidth="366.0" style="-fx-alignment: center;" text="Сколько нужно калорий в день, чтобы похудеть быстро:" textAlignment="CENTER" textFill="#1767bc">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="151.0" layoutY="256.0" style="-fx-alignment: center;" text="Индекс массы тела:" textFill="#1767bc">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
